@@ -10,16 +10,15 @@
 		1882DAC31DA402B8007B119F /* ChaseDemoFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1882DAB91DA402B8007B119F /* ChaseDemoFW.framework */; };
 		1882DAC81DA402B8007B119F /* ChaseDemoFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAC71DA402B8007B119F /* ChaseDemoFWTests.swift */; };
 		1882DACA1DA402B8007B119F /* ChaseDemoFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 1882DABC1DA402B8007B119F /* ChaseDemoFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1882DADD1DA402DA007B119F /* AtmBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAD31DA402DA007B119F /* AtmBranch.swift */; };
-		1882DADE1DA402DA007B119F /* ChaseLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAD41DA402DA007B119F /* ChaseLocator.swift */; };
-		1882DADF1DA402DA007B119F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAD51DA402DA007B119F /* DetailsViewController.swift */; };
-		1882DAE01DA402DA007B119F /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882DAD61DA402DA007B119F /* DetailsViewController.xib */; };
-		1882DAE11DA402DA007B119F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1882DAD71DA402DA007B119F /* Info.plist */; };
-		1882DAE21DA402DA007B119F /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAD81DA402DA007B119F /* LocationController.swift */; };
-		1882DAE31DA402DA007B119F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DAD91DA402DA007B119F /* MapView.swift */; };
-		1882DAE41DA402DA007B119F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DADA1DA402DA007B119F /* MapViewController.swift */; };
-		1882DAE51DA402DA007B119F /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882DADB1DA402DA007B119F /* MapViewController.xib */; };
-		1882DAE61DA402DA007B119F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DADC1DA402DA007B119F /* Utils.swift */; };
+		1882DB601DA44260007B119F /* AtmBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB571DA44260007B119F /* AtmBranch.swift */; };
+		1882DB611DA44260007B119F /* ChaseLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB581DA44260007B119F /* ChaseLocator.swift */; };
+		1882DB621DA44260007B119F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB591DA44260007B119F /* DetailsViewController.swift */; };
+		1882DB631DA44260007B119F /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882DB5A1DA44260007B119F /* DetailsViewController.xib */; };
+		1882DB641DA44260007B119F /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB5B1DA44260007B119F /* LocationController.swift */; };
+		1882DB651DA44260007B119F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB5C1DA44260007B119F /* MapView.swift */; };
+		1882DB661DA44260007B119F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB5D1DA44260007B119F /* MapViewController.swift */; };
+		1882DB671DA44260007B119F /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882DB5E1DA44260007B119F /* MapViewController.xib */; };
+		1882DB681DA44260007B119F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882DB5F1DA44260007B119F /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,15 @@
 		1882DAC21DA402B8007B119F /* ChaseDemoFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseDemoFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1882DAC71DA402B8007B119F /* ChaseDemoFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseDemoFWTests.swift; sourceTree = "<group>"; };
 		1882DAC91DA402B8007B119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1882DAD31DA402DA007B119F /* AtmBranch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtmBranch.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/AtmBranch.swift; sourceTree = "<group>"; };
-		1882DAD41DA402DA007B119F /* ChaseLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChaseLocator.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/ChaseLocator.swift; sourceTree = "<group>"; };
-		1882DAD51DA402DA007B119F /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/DetailsViewController.swift; sourceTree = "<group>"; };
-		1882DAD61DA402DA007B119F /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailsViewController.xib; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/DetailsViewController.xib; sourceTree = "<group>"; };
-		1882DAD71DA402DA007B119F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/Info.plist; sourceTree = "<group>"; };
-		1882DAD81DA402DA007B119F /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationController.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/LocationController.swift; sourceTree = "<group>"; };
-		1882DAD91DA402DA007B119F /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/MapView.swift; sourceTree = "<group>"; };
-		1882DADA1DA402DA007B119F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/MapViewController.swift; sourceTree = "<group>"; };
-		1882DADB1DA402DA007B119F /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/MapViewController.xib; sourceTree = "<group>"; };
-		1882DADC1DA402DA007B119F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../../../Photon/JPMC/AtmLocator/ATMLocator/ATMLocator/Utils.swift; sourceTree = "<group>"; };
+		1882DB571DA44260007B119F /* AtmBranch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmBranch.swift; sourceTree = "<group>"; };
+		1882DB581DA44260007B119F /* ChaseLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseLocator.swift; sourceTree = "<group>"; };
+		1882DB591DA44260007B119F /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1882DB5A1DA44260007B119F /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		1882DB5B1DA44260007B119F /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		1882DB5C1DA44260007B119F /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1882DB5D1DA44260007B119F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1882DB5E1DA44260007B119F /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		1882DB5F1DA44260007B119F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,16 +89,15 @@
 		1882DABB1DA402B8007B119F /* ChaseDemoFW */ = {
 			isa = PBXGroup;
 			children = (
-				1882DAD31DA402DA007B119F /* AtmBranch.swift */,
-				1882DAD41DA402DA007B119F /* ChaseLocator.swift */,
-				1882DAD51DA402DA007B119F /* DetailsViewController.swift */,
-				1882DAD61DA402DA007B119F /* DetailsViewController.xib */,
-				1882DAD71DA402DA007B119F /* Info.plist */,
-				1882DAD81DA402DA007B119F /* LocationController.swift */,
-				1882DAD91DA402DA007B119F /* MapView.swift */,
-				1882DADA1DA402DA007B119F /* MapViewController.swift */,
-				1882DADB1DA402DA007B119F /* MapViewController.xib */,
-				1882DADC1DA402DA007B119F /* Utils.swift */,
+				1882DB571DA44260007B119F /* AtmBranch.swift */,
+				1882DB581DA44260007B119F /* ChaseLocator.swift */,
+				1882DB591DA44260007B119F /* DetailsViewController.swift */,
+				1882DB5A1DA44260007B119F /* DetailsViewController.xib */,
+				1882DB5B1DA44260007B119F /* LocationController.swift */,
+				1882DB5C1DA44260007B119F /* MapView.swift */,
+				1882DB5D1DA44260007B119F /* MapViewController.swift */,
+				1882DB5E1DA44260007B119F /* MapViewController.xib */,
+				1882DB5F1DA44260007B119F /* Utils.swift */,
 				1882DABC1DA402B8007B119F /* ChaseDemoFW.h */,
 				1882DABD1DA402B8007B119F /* Info.plist */,
 			);
@@ -212,9 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1882DAE11DA402DA007B119F /* Info.plist in Resources */,
-				1882DAE51DA402DA007B119F /* MapViewController.xib in Resources */,
-				1882DAE01DA402DA007B119F /* DetailsViewController.xib in Resources */,
+				1882DB631DA44260007B119F /* DetailsViewController.xib in Resources */,
+				1882DB671DA44260007B119F /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,13 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1882DAE21DA402DA007B119F /* LocationController.swift in Sources */,
-				1882DAE41DA402DA007B119F /* MapViewController.swift in Sources */,
-				1882DADD1DA402DA007B119F /* AtmBranch.swift in Sources */,
-				1882DAE61DA402DA007B119F /* Utils.swift in Sources */,
-				1882DAE31DA402DA007B119F /* MapView.swift in Sources */,
-				1882DADE1DA402DA007B119F /* ChaseLocator.swift in Sources */,
-				1882DADF1DA402DA007B119F /* DetailsViewController.swift in Sources */,
+				1882DB641DA44260007B119F /* LocationController.swift in Sources */,
+				1882DB661DA44260007B119F /* MapViewController.swift in Sources */,
+				1882DB601DA44260007B119F /* AtmBranch.swift in Sources */,
+				1882DB681DA44260007B119F /* Utils.swift in Sources */,
+				1882DB651DA44260007B119F /* MapView.swift in Sources */,
+				1882DB611DA44260007B119F /* ChaseLocator.swift in Sources */,
+				1882DB621DA44260007B119F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
